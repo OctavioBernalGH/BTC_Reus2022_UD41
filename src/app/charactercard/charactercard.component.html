@@ -4,8 +4,8 @@
       <div class="card" style="width: 18rem;" *ngFor="let chars of personajes">
         <img src={{chars.image}} class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">{{chars.name}}</h5>
-          <p style="text-align: left;">Name: {{chars.name}}<br>
+          <h5 class="card-title">{{chars.name | uppercase}}</h5>
+          <p style="text-align: left;">Name: {{chars.name | uppercase}}<br>
             Specie: {{chars.species}}<br>
             Status: {{chars.status}}
           </p>
