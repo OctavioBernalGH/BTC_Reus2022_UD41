@@ -1,0 +1,35 @@
+<form>
+  <div class="form-group">
+    <label for="charName">Nombre personaje</label>
+    <input type="text" class="form-control" id="name" [(ngModel)] = "chars.name" name="name"><br>
+  </div>
+  <div class="form-group">
+    <label for="charStatus">Status personaje</label>
+    <input type="text" class="form-control" id="status" [(ngModel)] = "chars.status"name="status"><br>
+  </div>
+  <div class="form-group">
+    <label for="charSpecies">Species personaje</label>
+    <input type="text" class="form-control" id="species" [(ngModel)] = "chars.species"name="species"><br>
+  </div>
+  <div class="form-group">
+    <label for="charSpecies">Gender personaje</label>
+    <input type="text" class="form-control" id="gender" [(ngModel)] = "chars.gender" name="gender"><br>
+  </div>
+  <div class="form-group">
+    <label for="charSpecies">Origen personaje</label>
+    <input type="text" class="form-control" id="origin" [(ngModel)] = "chars.origin" name="origin"><br>
+  </div>
+  <div class="form-group">
+    <label for="charSpecies">Location personaje</label>
+    <input type="text" class="form-control" id="location" [(ngModel)] = "chars.location" name="location"><br>
+  </div>
+  <div class="form-group">
+    <label for="charImagen">Imagen personaje</label>
+    <input type="text" class="form-control" id="imagen" [(ngModel)] = "chars.imagen" name="imagen"><br>
+    <button class="btn btn-success" (click)="saveChars" >Enviar</button>
+    <button class="btn btn-warning" (click)="newChar">Nuevo</button>
+  </div>
+</form>
+
+
+

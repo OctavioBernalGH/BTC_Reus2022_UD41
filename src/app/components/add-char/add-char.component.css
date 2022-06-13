@@ -1,0 +1,13 @@
+.form-group{
+  max-width: 400px;
+  margin: auto;
+}
+
+label{
+  margin-bottom: 10px;
+  color: #fff
+}
+
+form{
+  margin-top: 80px;
+}
